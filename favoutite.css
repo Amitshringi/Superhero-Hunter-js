@@ -1,0 +1,176 @@
+
+body{
+    
+    background-image:url('https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    /* background-image: url("./assets/comicblue.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+} 
+
+/* header{
+    text-align: center;
+    margin: 20px 0;
+   font-style:oblique;
+    font-size: 20px;
+
+}
+header h1{
+    background-color: rgb(120, 5, 5);
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    margin: 0 35%;
+    
+}
+header img{
+    width: 150px;
+    height: 100px;
+} */
+main{
+    max-width: 100%;
+    margin:0 10%;
+}
+form{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+input{
+    /* flex-grow: 1; */
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button{
+    background-color: #337ab7;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.card img{
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+    
+}
+.favorite-button{
+    background-color: #337ab7;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-page{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.hero-page h2{
+   
+    margin-top: 0px;
+}
+.favorite-list{
+    margin-top: 20px;
+}
+.remove-button{
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* css from fav */
+
+body{
+    background-image:url('https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    /* background-image: url("./assets/comicblue.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#favlistitem{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#outerbox{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#innerbox {
+    margin: 10px;
+}
+
+h5{
+    margin-left: 10px;
+}
+
+button{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#innerbox img {
+    height:300px;
+    width:200px;
+}
+
+#logo{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+#logoimage{
+    height: 60px;
+    width: 180px;
+}
+
+.nav-link{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 2px double black;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+  
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between the cards as needed */
+  }
+
+  
