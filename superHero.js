@@ -43,7 +43,7 @@ searchForm.addEventListener("click", async (event) => {
 searchInput.addEventListener("keyup", fetchSuperHero);
 
 
-
+// fetching superhero
 async function fetchSuperHero() {
   let name = searchInput.value;
   const apiUrl = `${API_URL}?nameStartsWith=${name}&ts=${API_TS}&apikey=${API_PUBLIC_KEY}&hash=${hashString}`;
@@ -61,8 +61,8 @@ async function fetchSuperHero() {
     .catch((error) => console.log(error));
 }
 
+//fetching all the superhero
 async function fetchAllSuperHero() {
-
   const apiUrl = `${API_URL}?ts=${API_TS}&apikey=${API_PUBLIC_KEY}&hash=${hashString}`;
   // Fetch superhero data from API
   fetch(apiUrl)

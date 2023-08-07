@@ -1,9 +1,8 @@
-
+/* css for superheroInfo page */
 body{
     background-image:url('https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg');
     width: 100%;
     background-attachment: fixed;
-    /* background-image: url("./assets/comicblue.jpg"); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -1,38 +1,13 @@
-
+/* css of the main/home page(index.js) */
 body{
-    
     background-image:url('https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg');
     width: 100%;
     background-attachment: fixed;
-    /* background-image: url("./assets/comicblue.jpg"); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
-    
 } 
-
-/* header{
-    text-align: center;
-    margin: 20px 0;
-   font-style:oblique;
-    font-size: 20px;
-
-}
-header h1{
-    background-color: rgb(120, 5, 5);
-    border-radius: 10px;
-    color: white;
-    width: 400px;
-    height: 50px;
-    margin: 0 35%;
-    
-}
-header img{
-    width: 150px;
-    height: 100px;
-} */
 main{
     max-width: 100%;
     margin:0 10%;
@@ -40,7 +15,6 @@ main{
 form{
     display: flex;
     margin-bottom: 20px;
-
 }
 
 input{
@@ -103,20 +77,6 @@ button{
     font-size: 16px;
     cursor: pointer;
 }
-
-/* css from fav */
-
-body{
-    background-image:url('https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg');
-    width: 100%;
-    background-attachment: fixed;
-    /* background-image: url("./assets/comicblue.jpg"); */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
 #favlistitem{
     display: flex;
     align-items: flex-start;

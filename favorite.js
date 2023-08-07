@@ -13,16 +13,6 @@ function fetching(list) {
   // });
 }
 
-// Load hero data
-// async function loadhero(heroid) {
-//   const URL = `https://www.superheroapi.com/api.php/3580926752143021/${heroid.trim()}`;
-//   const res = await fetch(URL);
-//   const data = await res.json();
-//   if (data) {
-//     heroslist(data);
-//   }
-// }
-
 // Display hero data
 function heroslist(hero) {
   const herosdata = document.createElement('div');
