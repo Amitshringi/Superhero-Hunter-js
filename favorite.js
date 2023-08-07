@@ -72,7 +72,7 @@ function displayResults(results) {
     // If not on the favorite hero page, add "Add to favorites" button to card
     const favoriteButton = document.createElement("button");
       favoriteButton.classList.add("favorite-button");
-      favoriteButton.textContent = "remoce to favorites";
+      favoriteButton.textContent = "remove to favorites";
       favoriteButton.addEventListener("click", (event) => {
         event.preventDefault();
         remove(result);
