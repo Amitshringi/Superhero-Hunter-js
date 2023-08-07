@@ -33,6 +33,7 @@ if (isFavoritePage) {
 // Array to store favorite superheros
 let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
+
 // Handle form submit element
 searchForm.addEventListener("click", async (event) => {
   event.preventDefault(); // Prevent default form submission
